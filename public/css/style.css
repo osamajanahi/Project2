@@ -78,6 +78,8 @@ body {
 
   .event-img {
     padding: 40px 0;
+    height: 200px;
+    width: 200px;
   }
 
   .event-p {
