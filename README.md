@@ -18,3 +18,7 @@ https://trello.com/invite/b/c3YJ25Yp/ATTI7782aa9ca765229afd2d89397eb0cede080AC8D
 ![Admin-users-screen (1)](https://github.com/osamajanahi/Project2/assets/128320538/17de3b76-3553-4d27-8783-f86bf65172b5)
 ![home-index-admin-edited](https://github.com/osamajanahi/Project2/assets/128320538/d3b1d4d7-7660-4138-8a51-adb6acbcff1a)
 ![event-detail](https://github.com/osamajanahi/Project2/assets/128320538/1b6ceb2b-b40b-4856-8ab5-6111b0109f05)
+
+## Future Enhancments
+- Add a booking ticket for the event
+- Google maps location for the event
