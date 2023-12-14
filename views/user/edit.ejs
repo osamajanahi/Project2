@@ -1,17 +1,8 @@
-<h1 class="mb-3">Edit User</h1>
+<h4 class="mb-3 d-flex align-items-center text-center justify-content-center">Edit Profile</h4>
 
-<form method="POST" action="/user/update" enctype="multipart/form-data">
+<form method="POST" action="/user/update" enctype="multipart/form-data" class="d-flex flex-column align-items-center">
     <input type="hidden" name="id" value="<%= user._id %>">
     
-    <div class="col-12 mt-3">
-        <label class="form-label">Name:</label>
-        <input type="text" class="form-control" name="name" value="<%= user.name %>">
-    </div>
-    <div class="col-12 mt-3">
-        <label class="form-label">Email:</label>
-        <input type="email" class="form-control" name="" value="<%= user.email %>" disabled>
-    </div>
-    <br>
     <div class="col-12">
 
         <div class="d-flex flex-column align-items-cente justify-content-center">
@@ -26,10 +17,20 @@
             </div>
         </div>
         
-           <div class="text-center mt-3">
-            <button type="submit" class="btn btn-danger text-center">Update Profile</button>
-           </div>
-        
     </div>
-</div>
+
+    <div class="col-sm-6 mt-3">
+        <label class="form-label">Name:</label>
+        <input type="text" class="form-control" name="name" value="<%= user.name %>">
+    </div>
+    <div class="col-sm-6 mt-3">
+        <label class="form-label">Email:</label>
+        <input type="email" class="form-control" name="" value="<%= user.email %>" disabled>
+    </div>
+    <br>
+    
+    <div class="text-center mt-5">
+        <button type="submit" class="btn btn-danger text-center">Update Profile</button>
+    </div>
+
 </form>
