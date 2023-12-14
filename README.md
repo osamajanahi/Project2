@@ -4,6 +4,7 @@ The primary objective of our website is to serve as a comprehensive platform for
 ## Main Page: 
 ![main-page](https://github.com/osamajanahi/Project2/assets/128320538/d1f898f4-0e2c-4c79-bda4-1b2f68eb93b4)
 
+## ERD
 ![Project2 erd updated](https://github.com/osamajanahi/Project2/assets/128320538/4845c534-e184-4d26-94f6-afc257d07064)
 
 ## Users roles
