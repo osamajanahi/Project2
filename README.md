@@ -3,6 +3,8 @@ The primary objective of our website is to serve as a comprehensive platform for
 
 ![Project2 erd updated](https://github.com/osamajanahi/Project2/assets/128320538/4845c534-e184-4d26-94f6-afc257d07064)
 
+## Main Page: 
+![main-page](https://github.com/osamajanahi/Project2/assets/128320538/d1f898f4-0e2c-4c79-bda4-1b2f68eb93b4)
 
 ## Users roles
 - Admin: Admins handle website content by adding, editing, and removing events and categories. They can also adjust user roles.
@@ -15,5 +17,3 @@ https://trello.com/invite/b/c3YJ25Yp/ATTI7782aa9ca765229afd2d89397eb0cede080AC8D
 ![Admin-users-screen (1)](https://github.com/osamajanahi/Project2/assets/128320538/17de3b76-3553-4d27-8783-f86bf65172b5)
 ![home-index-admin-edited](https://github.com/osamajanahi/Project2/assets/128320538/d3b1d4d7-7660-4138-8a51-adb6acbcff1a)
 ![event-detail](https://github.com/osamajanahi/Project2/assets/128320538/1b6ceb2b-b40b-4856-8ab5-6111b0109f05)
-## Main Page: 
-![main-page](https://github.com/osamajanahi/Project2/assets/128320538/d1f898f4-0e2c-4c79-bda4-1b2f68eb93b4)
