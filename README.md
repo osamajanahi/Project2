@@ -1,3 +1,5 @@
+# Website Link:
+https://events-bh.onrender.com/
 # Description
 The primary objective of our website is to serve as a comprehensive platform for discovering and exploring ongoing and upcoming events and festivals in Bahrain. Our user-friendly interface ensures easy navigation and access to detailed information, including event names, dates, times, and locations. Whether you're interested in cultural festivals, sports events, or a variety of other happenings, our website strives to be your go-to resource for staying informed about the vibrant and diverse event landscape in Bahrain. Join us in celebrating the rich tapestry of events that make Bahrain a dynamic and exciting destination, and let us be your guide to discovering memorable experiences.
 
