@@ -52,6 +52,13 @@
 
       <div class="col-sm-6">
         <label for="category">Category</label>
+        <!-- This is to remove the events from the category if they are not in it -->
+        <% let removeArr = [] 
+        event.category.forEach(cat =>{
+          removeArr.push(cat._id);
+        })
+        %>
+        <input type="hidden" name="removeArr" value="removeArr">
         <select name="category[]" id="category" class="form-select" multiple='true'>
           <option>Select a Category</option>
           <% categories.forEach(function(category) { %>

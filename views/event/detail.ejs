@@ -12,16 +12,18 @@
 <div>
     <p class="event-p">Location: <%= event.location  %></p>
 </div>
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <% for(let i = 0; i < event.image.length; i++) { %>
-            <div class="carousel-item <% if(i == 0){ %>active<% } %>" >
-                <img class="w-50 h-100 img-fluid event-img" src="<%= event.image[i] %>" alt="Current Event Image">
-            </div>
-            <% } %>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center">
+      <% for (let i = 0; i < event.image.length; i++) { %>
+        <div class="carousel-item <% if (i == 0) { %>active<% } %>">
+          <div class="d-flex justify-content-center">
+            <img class="d-block img-fixed-size img-fluid event-img" src="<%= event.image[i] %>" alt="Current Event Image">
+          </div>
         </div>
-      </div>
+      <% } %>
+    </div>
+  </div>
+  
 
 
 <div class="mb-5">
