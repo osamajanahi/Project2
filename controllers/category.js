@@ -75,19 +75,6 @@ exports.category_edit_get = (req,res) => {
     })
 }
 
-// exports.category_update_post = (req,res) => {
-//     console.log(req.body.id);
-//     console.log(req.file)
-    
-//     // find req.body.id and update req.body
-//     Category.findByIdAndUpdate(req.body.id, req.body)
-//     .then(() => {
-//         res.redirect('/category/index');
-//     })
-//     .catch((err) => {
-//         console.log(err);
-//     })
-// }
 
 exports.category_update_post = async (req, res) => {
     console.log(req.body.id);

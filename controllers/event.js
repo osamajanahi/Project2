@@ -79,7 +79,7 @@ exports.events_index_get = (req, res)=>{
         res.render('event/index', {events, dayjs})
     })
     .catch((err)=>{
-     console.log(err)
+        console.log(err)
     })
 
 }
@@ -130,19 +130,32 @@ exports.event_edit_get = (req, res)=>{
 }
 
 exports.event_edit_post = async (req, res)=>{
-console.log(req.files)
-console.log(req.body)
+// console.log(req.files)
+// console.log(req.body)
     if(req.files.length != 0){
-        console.log("in")
+        // console.log("in")
         let images;
         let pathDb = [];
         images = req.files.map(file => `public/images/${file.filename}`);
         await uploadCloudinary.upload_multiple(images)
         .then((imagesPath) =>{
             imagesPath.forEach(pathImg =>{
-                console.log(pathImg.url)
+                // console.log(pathImg.url)
                 pathDb.push(pathImg.url);
             })
+            // const removeArr = req.body.removeArr;
+            // const savedValues = removeArr.split(',');
+            // console.log(`These are the saved values ${savedValues}`);
+            // savedValues.forEach(value =>{    
+            //     Category.findById(value)
+            //     .then(cat =>{
+            //         cat.event.splice(cat.event.indexOf(req.body.id, 1))
+            //         cat.save()
+            //     })
+            //     .catch(err =>{
+            //         console.log(err);
+            //     })
+            // })
             const body = req.body;
             body.image = pathDb
             Event.findByIdAndUpdate(req.body.id, body)

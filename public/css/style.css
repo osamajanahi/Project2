@@ -78,10 +78,30 @@ body {
 
   .event-img {
     padding: 40px 0;
-    height: 200px;
-    width: 200px;
+    width: 70%;
+    /* height: 500px;
+    width: 500px; */
   }
 
   .event-p {
     font-size: 20px;
+  }
+
+
+  @media (max-width: 767px) {
+    .event-desc {
+      font-size: 10px; /* Adjust the font size for smaller screens */
+      width: 100%;
+    }
+
+    .event-img {
+    width: 100%;
+    }
+  }
+  
+  /* Custom media query for larger screens */
+  @media (min-width: 1200px) {
+    .event-desc {
+      font-size: 25px; /* Adjust the font size for larger screens */
+    }
   }
